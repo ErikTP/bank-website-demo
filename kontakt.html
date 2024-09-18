@@ -25,32 +25,47 @@
     
     <main>
 
-        <h3>Kontaktformulär</h3>
+        <section class="title-wrapper">
+            <h1>Kontakta oss</h1>
+            <p>Vänligen fyll i formuläret.</p>
+        </section>
 
-<div class="contact-container">
-  <form action="/action_page.php">
-    <label for="fname">Förnamn</label>
-    <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
+        <section class="section">
 
-    <label for="lname">Efternamn</label>
-    <input type="text" id="lname" name="lastname" placeholder="Din efternamn..">
+            <div class="box-container">
 
-    <label for="lname">E-post</label>
-    <input type="text" id="ename" name="e-post" placeholder="Din e-post..">
+                <div class="box">
 
-    <label for="country">Land</label>
-    <select id="country" name="country">
-      <option value="australia">Sverige</option>
-      <option value="canada">Danmark</option>
-      <option value="usa">Norge</option>
-    </select>
+                    <form action="/action_page.php">
 
-    <label for="subject">Meddelande</label>
-    <textarea id="subject" name="subject" placeholder="Skriv något.." style="height:200px"></textarea>
+                        <label for="fname">Förnamn</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
+                    
+                        <label for="lname">Efternamn</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Din efternamn..">
+                    
+                        <label for="lname">E-post</label>
+                        <input type="text" id="ename" name="e-post" placeholder="Din e-post..">
+                    
+                        <label for="country">Land</label>
+                        <select id="country" name="country">
+                            <option value="australia">Sverige</option>
+                            <option value="canada">Danmark</option>
+                            <option value="usa">Norge</option>
+                        </select>
+                    
+                        <label for="subject">Meddelande</label>
+                        <textarea id="subject" name="subject" placeholder="Skriv något.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Skicka">
 
-    <input type="submit" value="Skicka">
-  </form>
-</div>
+                    </form>
+
+                </div>
+        
+            </div>
+
+        </section>
 
     </main>
 
