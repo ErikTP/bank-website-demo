@@ -71,18 +71,6 @@ h1 {
     flex: 1;
 }
 
-.box-1{
-    background: #fff;
-    border-radius: 1rem;
-    box-shadow: 0 0 5px -2px #222;
-    padding: 2rem;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 100%;
-    width: 30%;
-}
-
-
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -91,7 +79,6 @@ h1 {
     gap: 2rem;
     padding-top: 3rem;
 }
-
 
 footer {
     background: #111;
