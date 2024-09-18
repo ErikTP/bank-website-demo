@@ -1,0 +1,45 @@
+body {
+    color: #222;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: clamp(1rem, 1.25vw, 1.25rem);
+    font-style: normal;
+}
+
+header {
+    background: rgb(3, 152, 3);
+    color: #fff;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    list-style-type: none; 
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.title-wrapper {
+    background: rgb(90, 207, 90);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 3rem;
+}
