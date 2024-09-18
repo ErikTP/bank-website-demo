@@ -1,4 +1,5 @@
 body {
+    background: #d5d4d4;
     color: #222;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
@@ -7,10 +8,14 @@ body {
 }
 
 header {
-    background: rgb(3, 152, 3);
+    background: rgb(7, 100, 7);
     color: #fff;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+}
+
+main {
+    height: 100vh;
 }
 
 h1 {
@@ -35,11 +40,39 @@ h1 {
 }
 
 .title-wrapper {
-    background: rgb(90, 207, 90);
+    background: rgb(47, 144, 47);
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 2rem 3rem;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.box {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px -2px #222;
+    padding: 2rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    width: 30%;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    text-align: center;
 }
