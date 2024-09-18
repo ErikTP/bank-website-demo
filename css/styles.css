@@ -80,6 +80,7 @@ h1 {
     padding-top: 3rem;
 }
 
+
 footer {
     background: #111;
     color: #fff;
@@ -88,7 +89,7 @@ footer {
     text-align: center;
 }
 
-#knapp {
+.button {
     
     padding: 0.5rem;
     background-color: rgb(0, 134, 0);
@@ -102,6 +103,6 @@ footer {
     cursor: pointer;
 }
 
-#knapp:hover {
+.button:hover {
     background-color: darkgreen;
 }
