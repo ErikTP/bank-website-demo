@@ -88,3 +88,21 @@ footer {
     padding: 1.5rem;
     text-align: center;
 }
+
+#knapp {
+    
+    padding: 0.5rem;
+    background-color: rgb(0, 134, 0);
+    color: white;
+    border-radius: 1rem;
+    border: 0px;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    min-width: 10rem;
+    cursor: pointer;
+}
+
+#knapp:hover {
+    background-color: darkgreen;
+}
