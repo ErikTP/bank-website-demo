@@ -63,6 +63,15 @@ nav {
 main {
 	height: 100vh;
 }
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 /* 
 .inner-wrapper {
 	padding-left: 4%;
