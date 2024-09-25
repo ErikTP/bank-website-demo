@@ -40,11 +40,12 @@ nav {
     right: 2rem;
 }
 
+
 .navigation {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    justify-content: flex-start;
+    justify-content: center;
     list-style-type: none; 
     position: relative;
     margin-left: 1rem;
@@ -129,6 +130,18 @@ main {
 	border-radius: 1rem;
 	box-shadow: 0 0 5px -2px #222;
 	padding: 2rem;
+}
+
+@media (max-width: 600px) {
+	ul li {
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 600px) {
+	.hamburgare {
+		visibility: hidden;
+	}
 }
 
 @media (min-width: 600px) {
