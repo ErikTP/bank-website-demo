@@ -33,6 +33,11 @@ nav {
 	padding-top: 1.5rem;
 }
 
+.hamburgare {   
+    width: 25px;
+    height: 25px;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
