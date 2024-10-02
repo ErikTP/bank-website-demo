@@ -68,6 +68,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+p {
+	margin-top: 1.5rem;
+}
+
 /* 
 .inner-wrapper {
 	padding-left: 4%;
