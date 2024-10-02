@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 
     <header> 
      <nav>
-        <ul class="navigation">
+        <ul class="navigation" aria-label="Huvudnavigation">
             <li class="navlink"><a href="index.html">Hem</a></li>
             <li class="navlink"><a href="om-oss.html">Om oss</a></li>
             <li class="navlink"><a href="tjanster.html">Tjänster</a></li>
@@ -21,9 +21,9 @@
         <div class="hamburgare"> 
             <img
                 src="hamburgarmeny.png"
-                alt="Hamburgermeny"
-                aria-label="Öppna menyn">
-            </div>
+                alt="Hamburgarmeny för navigation"
+                aria-label="Klicka på hamburgarmeny för att navigera">
+        </div>
         </ul>
      </nav>
 
@@ -36,7 +36,7 @@
     
     <main class="inner-wrapper">
 
-        <section class="section">
+        <section class="section" aria-labelledby="kontakt-formular">
 
             <div class="box-container-tjanster">
 
@@ -44,14 +44,14 @@
 
                     <form action="/action_page.php">
 
-                        <label for="fname">Förnamn</label>
+                        <label for="fname">Förnamn <span aria-hidden="true">*</span></label>
                         <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
                     
-                        <label for="lname">Efternamn</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Din efternamn..">
+                        <label for="lname">Efternamn <span aria-hidden="true">*</span></label>
+                        <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn.." aria-required="true">
                     
-                        <label for="lname">E-post</label>
-                        <input type="text" id="ename" name="e-post" placeholder="Din e-post..">
+                        <label for="ename">E-post <span aria-hidden="true">*</span></label>
+                        <input type="text" id="ename" name="e-post" placeholder="Din e-post.." aria-required="true">
                     
                         <label for="country">Land</label>
                         <select id="country" name="country">
@@ -61,9 +61,9 @@
                         </select>
                     
                         <label for="subject">Meddelande</label>
-                        <textarea id="subject" name="subject" placeholder="Skriv något.." style="height:200px"></textarea>
+                        <textarea id="subject" name="subject" placeholder="Skriv något.."></textarea>
                     
-                        <input type="submit" value="Skicka">
+                        <input type="submit" value="Skicka" aria-label="Skicka formuläret">
 
                     </form>
 

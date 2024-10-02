@@ -226,6 +226,10 @@ input[type=submit] {
 input[type=submit]:hover {
 	background-color: #45a049;
 }
+
+#subject{
+	height: 200px;
+}
   
 .contact-container {
 	border-radius: 5px;
