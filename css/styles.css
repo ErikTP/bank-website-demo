@@ -99,6 +99,11 @@ main p {
 	background-image: url("/images/bankcard.jpg");
 }
 
+/* Hero image for service page */
+.top-image-services{
+	background-image: url("/images/pexels-tima-miroshnichenko.jpg");
+}
+
 /* 
 .inner-wrapper {
 	padding-left: 4%;
