@@ -6,12 +6,35 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Banken</title>
 </head>
 <body>
 
     <header> 
-     <nav>
+        <nav>
+            <ul>
+                <li class="navlink"><a href="index.html">Hem</a></li>
+                <li class="navlink"><a href="tjanster.html">Tjanster</a></li>
+                <li class="navlink"><a href="om-oss.html">Om oss</a></li>
+                <li class="navlink"><a href="faq.html">FAQ</a></li>
+            
+                <div class="topnav">
+                
+                <div id="myLinks">
+                    <a href="index.html">Hem</a>
+                    <a href="tjanster.html">Tjänster</a>
+                    <a href="om-oss.html">Om oss</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+        
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        
+        </nav>
+     <!-- <nav>
         <ul class="navigation">
            <li class="navlink"><a href="index.html">Hem</a></li>
            <li class="navlink"><a href="om-oss.html">Om oss</a></li>
@@ -26,7 +49,20 @@
             </div>
         </ul>
 
-    </nav>
+    </nav> -->
+
+
+
+    <script>
+        function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    } 
+    </script>
 
      <div class="title-wrapper">
         <h1>Välkommen till banken!</h1>

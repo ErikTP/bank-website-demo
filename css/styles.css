@@ -33,20 +33,20 @@ header {
 	max-width: 100%;
 }
 
-nav {
+/* nav {
 	padding-bottom: 1.5rem;
 	padding-top: 1.5rem;
-}
+} */
 
-.hamburgare {   
+/* .hamburgare {   
     width: 25px;
     height: 25px;
     position: absolute;
-    right: 2rem;
-}
+    right: 1rem;
+} */
 
 
-.navigation {
+.navlink {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -56,7 +56,7 @@ nav {
     margin-left: 1rem;
 }
 
-.navigation a {
+.navlink a {
     color: #fff;
     text-decoration: none;
 }
@@ -150,20 +150,19 @@ main p {
 	.navigation, .navlink {
 		visibility: hidden;
 	}
-	.hamburgare {
-		visibility: visible;
-	}
+
 }
 
-@media (min-width: 700px) {
-	.hamburgare {
-		visibility: hidden;
-	}
-}
 
 @media (min-width: 700px) {
 	.box-container {
 		grid-template-columns: 1fr 1fr;
+	}
+	.navlink {
+		display: inline-block;
+	}
+	.topnav {
+		visibility: hidden;
 	}
 }
 
@@ -230,3 +229,65 @@ footer {
 	padding: 1.5rem;
 	text-align: center;
 }
+
+nav {
+	max-height: 3rem;
+	min-height: 3rem;
+}
+
+/* DROPDOWN MENU */
+
+.topnav {
+
+    display: block;
+    overflow: hidden;
+    background-color: rgb(7, 100, 7);
+    position: absolute;
+	top: 0;
+    min-height: 3rem;
+    min-width: 10rem;
+    right: 0;
+  }
+
+  
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    
+    color: rgb(230, 255, 237);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(39, 174, 53);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+	height: 3rem;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: rgba(188, 255, 184, 0.826);
+    color: black;
+
+    transition: 0.3s;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: rgb(0, 255, 38);
+    color: white;
+  } 
