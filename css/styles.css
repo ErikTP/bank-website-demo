@@ -7,6 +7,11 @@ body {
     font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
 	font-size: 3rem;
 	text-align: center;
@@ -68,8 +73,30 @@ a:hover {
 	text-decoration: underline;
 }
 
-p {
+main p {
 	margin-top: 1.5rem;
+}
+
+/* Hero image */
+.top-image {
+	align-items: center;
+	background-position: center; /* Position and center the image to scale nicely on all screens */
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	min-height: 40vh;
+}
+
+@media (min-width: 1200px) {
+	.top-image {
+		min-height: 60vh;
+	}
+}
+
+/* Hero image for home page */
+.top-image-home {
+	background-image: url("/images/bankcard.jpg");
 }
 
 /* 
@@ -141,7 +168,7 @@ p {
 	padding: 2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.navigation, .navlink {
 		visibility: hidden;
 	}
@@ -150,13 +177,13 @@ p {
 	}
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.hamburgare {
 		visibility: hidden;
 	}
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.box-container {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -164,7 +191,10 @@ p {
 
 @media (min-width: 1200px) {
 	.box-container {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.box { 
+		grid-column: 2 / 5;
 	}
 }
 
