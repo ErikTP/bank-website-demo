@@ -141,7 +141,7 @@ p {
 	padding: 2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.navigation, .navlink {
 		visibility: hidden;
 	}
@@ -150,13 +150,13 @@ p {
 	}
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.hamburgare {
 		visibility: hidden;
 	}
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.box-container {
 		grid-template-columns: 1fr 1fr;
 	}
@@ -164,7 +164,10 @@ p {
 
 @media (min-width: 1200px) {
 	.box-container {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.box { 
+		grid-column: 2 / 5;
 	}
 }
 
