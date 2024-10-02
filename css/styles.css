@@ -224,6 +224,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
 	background-color: #04AA6D;
+	font-size: 1.1rem;
 	color: white;
 	padding: 12px 20px;
 	border: none;
