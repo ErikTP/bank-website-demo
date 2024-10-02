@@ -107,6 +107,12 @@ main p {
 	background-image: url("/images/officebank.jpg");
 }
 
+
+/* Hero image for service page */
+.top-image-faq{
+	background-image: url("/images/helpkund\ \(1\).jpg");
+}
+
 /* 
 .inner-wrapper {
 	padding-left: 4%;
