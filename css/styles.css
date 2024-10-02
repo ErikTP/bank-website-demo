@@ -77,6 +77,28 @@ main p {
 	margin-top: 1.5rem;
 }
 
+/* Hero image */
+.top-image {
+	align-items: center;
+	background-position: center; /* Position and center the image to scale nicely on all screens */
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	min-height: 40vh;
+}
+
+@media (min-width: 1200px) {
+	.top-image {
+		min-height: 60vh;
+	}
+}
+
+/* Hero image for home page */
+.top-image-home {
+	background-image: url("/images/bankcard.jpg");
+}
+
 /* 
 .inner-wrapper {
 	padding-left: 4%;
