@@ -83,8 +83,6 @@ main p {
 	background-position: center; /* Position and center the image to scale nicely on all screens */
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
-	justify-content: center;
 	min-height: 40vh;
 }
 
@@ -102,6 +100,11 @@ main p {
 /* Hero image for service page */
 .top-image-services{
 	background-image: url("/images/pexels-tima-miroshnichenko.jpg");
+}
+
+/* Hero image for service page */
+.top-image-about{
+	background-image: url("/images/officebank.jpg");
 }
 
 /* 
