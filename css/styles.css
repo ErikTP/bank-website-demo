@@ -49,11 +49,13 @@ header {
 .navlink {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    /* gap: 2rem; */
     justify-content: center;
     list-style-type: none; 
     position: relative;
     margin-left: 1rem;
+	/* skumt, men ok */
+	top: 0.6rem;
 }
 
 .navlink a {
@@ -285,13 +287,16 @@ nav {
 	max-height: 3rem;
 	min-height: 3rem;
 	background-color: rgb(0, 55, 0);
+}
+
+nav, .navlink {
 	text-align: center;
 }
 
 /* DROPDOWN MENU */
 
 .topnav {
-
+	
     display: block;
     overflow: hidden;
     background-color: rgb(7, 100, 7);
@@ -306,14 +311,13 @@ nav {
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
-    display: flex;
+    /* display: flex; */
     border: 1px solid rgb(0, 0, 0);
 
   }
   
   /* Style navigation menu links */
-  .topnav a {
-    
+  .topnav a {    
     color: rgb(230, 255, 237);
     padding: 14px 16px;
     text-decoration: none;
@@ -345,3 +349,4 @@ nav {
     background-color: rgb(0, 255, 38);
     color: white;
   } 
+
