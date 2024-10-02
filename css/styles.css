@@ -142,8 +142,11 @@ a:hover {
 }
 
 @media (max-width: 600px) {
-	ul li {
+	.navigation, .navlink {
 		visibility: hidden;
+	}
+	.hamburgare {
+		visibility: visible;
 	}
 }
 
