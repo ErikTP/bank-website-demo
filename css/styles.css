@@ -98,19 +98,23 @@ main p {
 }
 
 /* Hero image for service page */
-.top-image-services{
+.top-image-services {
 	background-image: url("/images/pexels-tima-miroshnichenko.jpg");
 }
 
 /* Hero image for service page */
-.top-image-about{
+.top-image-about {
 	background-image: url("/images/meeting.jpg");
 }
 
-
 /* Hero image for service page */
-.top-image-faq{
+.top-image-faq {
 	background-image: url("/images/helpkund\ \(1\).jpg");
+}
+
+/* Hero image for contact page */
+.top-image-contact {
+	background-image: url("/images/pexels-olly-3779670.jpg");
 }
 
 /* 
