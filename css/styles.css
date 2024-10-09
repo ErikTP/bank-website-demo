@@ -142,6 +142,9 @@ a:hover {
 }
 
 .kontakt-huvudrubrik{
+	font-size: 3rem;
+	line-height: 1.3;
+	text-align: center;
 	padding: 1rem;
 }
 
