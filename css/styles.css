@@ -18,7 +18,6 @@ h1 {
 }
 
 header {
-    background: rgb(7, 100, 7);
     color: #fff;
 }
 
@@ -32,19 +31,6 @@ header {
 	padding: 2rem 2rem 3rem;
 	max-width: 100%;
 }
-
-/* nav {
-	padding-bottom: 1.5rem;
-	padding-top: 1.5rem;
-} */
-
-/* .hamburgare {   
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    right: 1rem;
-} */
-
 
 .navlink {
     display: flex;
@@ -90,7 +76,7 @@ main p {
 
 @media (min-width: 1200px) {
 	.top-image {
-		min-height: 60vh;
+		min-height: 75vh;
 	}
 }
 
@@ -119,53 +105,11 @@ main p {
 	background-image: url("/images/pexels-olly-3779670.jpg");
 }
 
-/* 
-.inner-wrapper {
-	padding-left: 4%;
-	padding-right: 4%;
-	margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-
-	.inner-wrapper {
-		max-width: 70%;
-		padding-left: 0;
-		padding-right: 0;
-	}
-}
-
-@media (min-width: 1200px) {
-
-	.inner-wrapper {
-		max-width: 45%;
-		padding-left: 0;
-		padding-right: 0;
-	}
-} */
-
 .kontakt-section {
 	width: 50%;
 	margin: auto;
 	/* padding-top: 3rem; */
 }
-
-/* 
-.box-container {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-}
-
-.box {
-	background: #fff;
-	border-radius: 1rem;
-	box-shadow: 0 0 5px -2px #222;
-	padding: 2rem;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 100%;
-} */
 
 .box-container {
 	display: grid;
@@ -299,7 +243,7 @@ nav, .navlink {
 	
     display: block;
     overflow: hidden;
-    background-color: rgb(0, 55, 0);
+    background-color: rgb(7, 100, 7);
     position: absolute;
 	top: 0;
     min-height: 3rem;
