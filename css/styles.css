@@ -120,8 +120,6 @@ a:hover {
 	margin: 2rem;
 }
 
-
-
 .kontakt-box {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -132,9 +130,17 @@ a:hover {
 	margin: 2rem;
 }
 
-.box{
-	display: grid;
-	grid-template-columns: 1fr;
+.box {
+	display: flex;
+	background: #fff;
+	border-radius: 1rem;
+	box-shadow: 0 0 5px -2px #222;
+	padding: 2rem; 
+	flex-direction: column;
+	justify-content: space-between;	
+}
+
+.box-faq {
 	background: #fff;
 	border-radius: 1rem;
 	box-shadow: 0 0 5px -2px #222;
@@ -233,11 +239,8 @@ input[type=submit]:hover {
 	background-color: rgb(0, 134, 0);
 	color: white;
 	border-radius: 1rem;
-	border: 0px;
-	margin-left: 0;
+	border: 0;
 	margin-top: 1rem;
-	/* margin-bottom: 2rem; */
-	min-width: 10rem;
 	cursor: pointer;
 }
 
