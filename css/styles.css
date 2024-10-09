@@ -167,19 +167,7 @@ main p {
 	flex-basis: 100%;
 } */
 
-.box-container {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 2rem;
-	margin: 2rem;
-}
 
-.box-container-tjanster {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 2rem;
-	margin: 2rem;
-}
 
 .box {
 	display: grid;
@@ -188,11 +176,16 @@ main p {
 	border-radius: 1rem;
 	box-shadow: 0 0 5px -2px #222;
 	padding: 2rem;
+	margin: 2rem;
 }
 
 @media (max-width: 700px) {
 	.navigation, .navlink {
 		visibility: hidden;
+	}
+
+	.kontakt-section{
+		width: 100%;
 	}
 }
 
@@ -207,6 +200,10 @@ main p {
 	.topnav {
 		visibility: hidden;
 	}
+
+	.kontakt-section{
+		width: 70%;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -215,6 +212,10 @@ main p {
 	}
 	.box { 
 		grid-column: 2 / 5;
+	}
+
+	.kontakt-section{
+		width: 50%;
 	}
 }
 

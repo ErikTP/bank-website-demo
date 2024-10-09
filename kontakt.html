@@ -63,11 +63,9 @@
 
         <section class="kontakt-section" aria-labelledby="kontakt-formular">
 
-            <div class="box-container-tjanster">
+                <form action="/action_page.php">
 
-                <div class="box">
-
-                    <form action="/action_page.php">
+                    <fieldset class="box">
 
                         <label for="fname">Förnamn <span aria-hidden="true">*</span></label>
                         <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
@@ -89,6 +87,8 @@
                         <textarea id="subject" name="subject" placeholder="Skriv något.."></textarea>
                     
                         <input type="submit" value="Skicka" aria-label="Skicka formuläret">
+
+                    </fieldset>
 
                     </form>
 
