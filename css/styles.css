@@ -145,6 +145,10 @@ main p {
 	padding: 2rem;
 }
 
+.kontakt-huvudrubrik{
+	padding: 1rem;
+}
+
 @media (max-width: 700px) {
 	.navlink {
 		visibility: hidden;
