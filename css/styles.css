@@ -172,7 +172,19 @@ main p {
 	flex-basis: 100%;
 } */
 
+.box-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+	margin: 2rem;
+}
 
+.box-container-tjanster {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2rem;
+	margin: 2rem;
+}
 
 .box {
 	display: grid;
