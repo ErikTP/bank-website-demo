@@ -7,37 +7,47 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Banken</title>
 </head>
 <body>
 
     <header> 
-     <nav>
-        <ul class="navigation">
-            <li class="navlink"><a href="index.html">Hem</a></li>
-            <li class="navlink"><a href="om-oss.html">Om oss</a></li>
-            <li class="navlink"><a href="tjanster.html">Tjänster</a></li>
-            <li class="navlink"><a href="kontakt.html">Kontakt</a></li>
-            <li class="navlink"><a href="faq.html">FAQ</a></li>
-        <div class="hamburgare"> 
-            <img
-                src="hamburgarmeny.png"
-                alt="Hamburgermeny"
-                aria-label="Öppna menyn">
+        <nav>
+            <ul>
+                <li class="navlink"><a href="index.html">Hem</a></li>
+                <li class="navlink"><a href="om-oss.html">Om oss</a></li>
+                <li class="navlink"><a href="tjanster.html">Tjanster</a></li>
+                <li class="navlink"><a href="kontakt.html">Kontakt</a></li>
+                <li class="navlink"><a href="faq.html">FAQ</a></li>
+            
+                <div class="topnav">
+                
+                <div id="myLinks">
+                    <a href="index.html">Hem</a>
+                    <a href="tjanster.html">Tjänster</a>
+                    <a href="om-oss.html">Om oss</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="faq.html">FAQ</a>
+                </div>
+        
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-        </ul>
-     </nav>
+        
+        </nav>
 
-     <div class="title-wrapper">
-        <h1>Om Oss</h1>
-        <p>Allt du behöver veta om oss!</p>
-     </div>
-
-     <div class="top-image top-image-about">
-    </div>
-
-
-    </header>
+    <script>
+        function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    } 
+    </script>
     
     <main class="inner-wrapper">
 
