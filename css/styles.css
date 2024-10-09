@@ -181,11 +181,9 @@ main p {
 
 @media (min-width: 1200px) {
 	.box-container {
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
-	.box { 
-		grid-column: 2 / 5;
-	}
+
 
 	.kontakt-section{
 		width: 50%;
